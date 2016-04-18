@@ -1,0 +1,31 @@
+public class Driver 
+{
+	public static void main(String[] args)
+	{
+		System.out.println(Driver.decimalToBase(2989,16));
+	}
+	
+	//this guy should take a String representation of a binary number
+	//as a parameter and return as a int the decimal equivalent
+	//"1011" -> 11
+	static int binaryToInteger(int decimalNumber, int radix)
+	{
+		String answer = "";
+		while(decimalNumber > 0)
+			
+			{
+			int remainder = decimalNumber % radix;
+			answer = answer+Driver.intToChar(int remainder;)
+			}
+			
+		return answer;
+	}
+	
+	
+	//return the integer version of the char parameter
+	static int charToInt(char c)
+	{
+		return "0123456789".indexOf(c);
+	}
+	
+	
