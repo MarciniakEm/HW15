@@ -1,0 +1,20 @@
+public class Driver 
+{
+	public static void main(String[] args)
+	{
+		String s = "hello world";
+		System.out.println(Driver.stringToCharArray(s));
+		//String answer = Driver.substring(s, 2, 7);
+		//System.out.println(answer);
+	}
+	
+	static char[] stringToCharArray(String s)
+	{
+		String answer = "";
+		for(int i = beginPos; i < endPos; i++)
+		{
+		answer += s.charAt(i);
+		}
+
+		return answer;
+	}
